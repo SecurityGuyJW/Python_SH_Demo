@@ -9,7 +9,7 @@
 import sh
 
 #the cat function is piped into the var variable.
-var = sh.cat('index.txt')
+var = sh.cat('index_000.txt')
 
 #output of the text file is displayed.
 print(var)
